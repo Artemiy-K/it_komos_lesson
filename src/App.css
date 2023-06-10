@@ -16,22 +16,9 @@
   width: 60px;
 }
 
-.nav {
-  grid-area: n;
-  background-color: blueviolet;
-}
 
-.header{
-  grid-area: h;
-  background-color: green;
-}
 
-.content{
-  content: c;
-  background-color: blanchedalmond;
-}
 
-.schapka{
-  width: 1280px;
-  height: 720px;
-}
+
+
+
