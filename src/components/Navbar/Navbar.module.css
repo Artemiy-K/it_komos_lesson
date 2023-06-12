@@ -1,9 +1,25 @@
 .nav {
   grid-area: n;
-  background-color: blueviolet;
-  width: 100px;
+  background-color: white;
+  width: 80px;
+  position: fixed
 }
 
 .item {
-  color: aliceblue;
+  color: black;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.profile {
+  background-color: DarkSlateGray;
+  height: 75px;
+
+}
+
+.avatar {
+  width: 78%;
+  height: 78%;
+  margin-left: 8px;
+  margin-top: 8px;
 }
