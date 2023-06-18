@@ -2,7 +2,8 @@
   grid-area: n;
   background-color: white;
   width: 80px;
-  position: fixed
+  height: 100%;
+  position: fixed;
 }
 
 .item {

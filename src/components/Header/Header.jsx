@@ -1,13 +1,30 @@
 import React from "react";
 import classes from "./Header.module.css";
+import loupe from "../../static/search_instument.png";
+import View_Card from "../../static/View_Card.png";
 
 const Header = () => {
   return (
     <header className={classes.header}>
-      <img
-        src="https://img.freepik.com/vektoren-kostenlos/goldener-vogel-logo-design_1195-336.jpg?w=2000"
-        className="img-lol"
-      />
+      <div>
+        <img src={loupe} className={classes.loupe} />
+        <input
+          type="text"
+          id="name"
+          placeholder="Search..."
+          className={classes.search}
+        ></input>
+      </div>
+      <div>
+        <div>
+          <button>
+            <img src={View_Card} className={classes.view_card} />
+          </button>
+        </div>
+        <div>
+          <a className={classes.login}>Login</a>
+        </div>
+      </div>
     </header>
   );
 };
