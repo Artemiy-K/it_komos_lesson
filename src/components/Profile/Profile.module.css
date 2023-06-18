@@ -37,6 +37,18 @@
   
 }
 
+.nickname {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 300px;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 2.2;
+  color: #4f515b
+  
+}
+
 .content{
   content: c;
 }

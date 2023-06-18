@@ -17,7 +17,7 @@ const Profile = () => {
         <img src={test_avatar} />
       </div>
 
-      <div></div>
+      <div className={classes.nickname}>Asemai</div>
       {/* <MyPosts /> */}
     </div>
   );
