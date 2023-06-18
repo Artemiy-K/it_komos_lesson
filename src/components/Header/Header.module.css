@@ -33,25 +33,26 @@ input {
 .view_card {
   /* position: absolute; */
   margin-left: -6px;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-top: -3px;
 }
 
 
 button {
-  width: 35px;
-  height: 35px;
-  margin-left: 1330px;
-  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 1315px;
+  margin-top: -25px;
   border-radius: 30px;
   border: none;
+  position: absolute
   
 }
 
 .login {
-  margin-left: 1380px;
+  margin-left: 1360px;
   position: absolute;
-  margin-top: -30px;
+  margin-top: -25px;
   
 }

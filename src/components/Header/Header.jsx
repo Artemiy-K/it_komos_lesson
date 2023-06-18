@@ -21,8 +21,8 @@ const Header = () => {
             <img src={View_Card} className={classes.view_card} />
           </button>
         </div>
-        <div>
-          <a className={classes.login}>Login</a>
+        <div className={classes.login}>
+          <a>Login</a>
         </div>
       </div>
     </header>
