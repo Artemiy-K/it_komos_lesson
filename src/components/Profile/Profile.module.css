@@ -39,14 +39,48 @@
 
 .nickname {
   position: absolute;
-  margin-top: 400px;
+  margin-top: 390px;
   margin-left: 300px;
   font-size: 20px;
   font-family: inherit;
   font-weight: 500;
-  line-height: 2.2;
+  line-height: 1.2;
   color: #4f515b
   
+}
+
+.user_id {
+  font-size: 1.25rem !important;
+  font-family: "Quicksand", Verdana, sans-serif;
+  color: #FFF;
+  text-rendering: optimizelegibility;
+  text-shadow: 0px 0px 3px rgba( 0, 0, 0, 0.8 );
+  flex: 1;
+  padding: 5px;
+  margin: 2px;
+  
+}
+
+.activity {
+  font-size: 12px;
+  padding: 0;
+  color: #FFF;
+  margin-left: 80px;
+  margin-top: -39px;
+  position: static;
+  flex: 1;
+  padding: 5px;
+  margin: 2px;
+
+}
+
+.item_header_content{
+  position: absolute; 
+  margin-top: 310px;
+  margin-left: 490px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .content{
